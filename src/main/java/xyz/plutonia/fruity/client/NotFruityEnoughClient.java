@@ -1,10 +1,12 @@
-package com.example.client;
+package xyz.plutonia.fruity.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class ExampleModClient implements ClientModInitializer {
+public class NotFruityEnoughClient implements ClientModInitializer {
+
     @Override
     public void onInitializeClient() {
 
     }
+
 }

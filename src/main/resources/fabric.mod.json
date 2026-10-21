@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "fruity",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Not Fruity Enough",
+	"description": "Adds various fruits, juices, and wood types to Minecraft",
 	"authors": [
-		"Me!"
+		"Pluto7073"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/Pluto7073/plutos-example-mod"
+		"homepage": "https://www.plutonia.xyz/mods/fruity",
+		"sources": "https://github.com/Pluto7073/NotFruityEnough-Fabric"
 	},
 	"license": "MIT",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/fruity/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"xyz.plutonia.fruity.NotFruityEnough"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"xyz.plutonia.fruity.client.NotFruityEnoughClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json"
+		"fruity.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${loader_version}",
